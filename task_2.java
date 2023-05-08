@@ -16,5 +16,5 @@ public void checkIsAdultWhenAgeIsLessThan18False() {
 public void checkIsAdultWhenAgeIs18True() {
         Program program = new Program();
         boolean isAdult = program.checkIsAdult(18);
-        assertEquals("Должно вернуться true, так как пользователь совершеннолетний", true, isAdult);
+        assertEquals("Должно быть true, так как пользователь совершеннолетний", true, isAdult);
         }

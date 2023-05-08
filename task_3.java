@@ -25,6 +25,6 @@ public class CheckIsAdultTest {
         // Передай сюда возраст пользователя
         boolean isAdult = program.checkIsAdult(age);
 
-        assertEquals("Пользователю должно быть больше 18 лет", result, isAdult);
+        assertEquals("Пользователю должно быть более 18 лет", result, isAdult);
     }
 }
